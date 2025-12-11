@@ -144,6 +144,13 @@
         .team-row td:last-child { border-right: 1px solid var(--border-color); border-radius: 0 12px 12px 0; }
         .role-tag { padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 700; text-transform: uppercase; }
 
+        /* --- FOOTER --- */
+        footer {
+            text-align: center;
+            padding: 100px 0;
+            background: linear-gradient(to top, #0f172a 0%, #020617 100%);
+        }
+
     </style>
 </head>
 <body>
@@ -168,8 +175,8 @@
                     <span>Domain Scalable</span>
                 </div>
                 <div class="stat-item">
-                    <strong style="color: var(--accent-orange);">Hybrid</strong>
-                    <span>Cloud & On-Premise</span>
+                    <strong style="color: var(--accent-orange);">Azure</strong>
+                    <span>Private Cloud</span>
                 </div>
                 <div class="stat-item">
                     <strong style="color: var(--accent-green);">B2B</strong>
@@ -194,9 +201,9 @@
                     <h3>1. 퇴사자 (Exit)</h3>
                     <p style="color: var(--text-sub);">암묵지가 영구적으로 소실됨</p>
                     <ul style="margin-top: 20px; font-size: 16px;">
-                        <li> 경쟁사로의 기술 유출 위험</li>
-                        <li> 형식적인 인수인계서의 한계</li>
-                        <li> 대체 비용: 연봉의 30%</li>
+                        <li>• 경쟁사로의 기술 유출 위험</li>
+                        <li>• 형식적인 인수인계서의 한계</li>
+                        <li>• 대체 비용: 연봉의 30%</li>
                     </ul>
                 </div>
                 <div class="card" style="border-top: 4px solid var(--accent-blue);">
@@ -204,9 +211,9 @@
                     <h3>2. 부서이동 (Transfer)</h3>
                     <p style="color: var(--text-sub);">가장 빈번한 업무 공백 발생</p>
                     <ul style="margin-top: 20px; font-size: 16px;">
-                        <li> 연간 발생 빈도 최다 (정기인사)</li>
-                        <li> "나중에 물어봐"식의 안일함</li>
-                        <li> 프로젝트 히스토리 단절</li>
+                        <li>• 연간 발생 빈도 최다 (정기인사)</li>
+                        <li>• "나중에 물어봐"식의 안일함</li>
+                        <li>• 프로젝트 히스토리 단절</li>
                     </ul>
                 </div>
                 <div class="card" style="border-top: 4px solid var(--accent-green);">
@@ -214,9 +221,9 @@
                     <h3>3. 휴직자 (Leave)</h3>
                     <p style="color: var(--text-sub);">복직 시 업무 적응 기간 소요</p>
                     <ul style="margin-top: 20px; font-size: 16px;">
-                        <li> 평균 재적응 6개월 소요</li>
-                        <li> 변경된 규정/프로세스 미숙지</li>
-                        <li> 복직 교육 리소스 낭비</li>
+                        <li>• 평균 재적응 6개월 소요</li>
+                        <li>• 변경된 규정/프로세스 미숙지</li>
+                        <li>• 복직 교육 리소스 낭비</li>
                     </ul>
                 </div>
             </div>
@@ -289,22 +296,22 @@
 
                 <!-- Security Moat (UPDATED) -->
                 <div>
-                    <span class="section-tag" style="border-color: var(--accent-orange); color: var(--accent-orange);">Flexible Security</span>
-                    <h2 style="margin-bottom: 30px;">Hybrid Integration</h2>
-                    <p style="color: var(--text-sub); margin-bottom: 40px;">기업의 인프라 환경(Cloud vs On-Premise)에 맞춰 유연하게 모델을 선택할 수 있습니다.</p>
+                    <span class="section-tag" style="border-color: var(--accent-orange); color: var(--accent-orange);">Azure Security</span>
+                    <h2 style="margin-bottom: 30px;">Enterprise Ready</h2>
+                    <p style="color: var(--text-sub); margin-bottom: 40px;">Azure Cloud는 기업용 보안의 표준입니다. 우리는 Azure의 보안 기능을 100% 활용합니다.</p>
 
                     <div class="feature-item" style="border: 1px solid rgba(251, 146, 60, 0.3);">
                         <div class="feature-icon" style="color: var(--accent-orange); background: rgba(251, 146, 60, 0.1);"><i class="fa-solid fa-cloud"></i></div>
                         <div>
-                            <h4 style="color: var(--accent-orange);">Secure Cloud (Standard)</h4>
-                            <p style="font-size: 15px; color: var(--text-sub);"><strong>Azure OpenAI(GPT-4o)</strong>와 Private Link를 연동하여 인터넷이 차단된 가상 폐쇄망 환경을 구축합니다.</p>
+                            <h4 style="color: var(--accent-orange);">Azure Private Link</h4>
+                            <p style="font-size: 15px; color: var(--text-sub);">인터넷이 차단된 가상 폐쇄망을 통해, 데이터가 외부로 노출되지 않고 Azure와 기업 내부망 사이에서만 전송됩니다.</p>
                         </div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-icon"><i class="fa-solid fa-server"></i></div>
+                        <div class="feature-icon"><i class="fa-solid fa-file-shield"></i></div>
                         <div>
-                            <h4>On-Premise Ready (Enterprise)</h4>
-                            <p style="font-size: 15px; color: var(--text-sub);">고객사 내부 서버에 구축된 <strong>오픈소스 모델(Llama, Mistral)의 추론 API</strong>를 직접 연동하는 BYOM 구조를 설계했습니다.</p>
+                            <h4>No Data Training</h4>
+                            <p style="font-size: 15px; color: var(--text-sub);">Azure OpenAI Service는 고객의 데이터를 학습 모델에 사용하지 않음을 계약으로 보장합니다.</p>
                         </div>
                     </div>
                     <div class="feature-item">
@@ -370,9 +377,9 @@
                     <h3>Handover & Offboarding</h3>
                     <p style="color: var(--text-sub); margin-bottom: 20px;">퇴직/전배 시 지식 유실 방지</p>
                     <ul style="color: var(--text-main);">
-                        <li> 반도체 등 제조 도메인 특화 RAG</li>
-                        <li> Zero Retention 보안 아키텍처</li>
-                        <li> STT 기반 인터뷰 엔진</li>
+                        <li>• 반도체 등 제조 도메인 특화 RAG</li>
+                        <li>• Zero Retention 보안 아키텍처</li>
+                        <li>• STT 기반 인터뷰 엔진</li>
                     </ul>
                 </div>
                 <div class="card">
@@ -380,8 +387,8 @@
                     <h3>승진 심사 & 온보딩</h3>
                     <p style="color: var(--text-sub); margin-bottom: 20px;">내부 승진/신입 교육으로 확장</p>
                     <ul style="color: var(--text-main);">
-                        <li> <strong>보안 승진 면접:</strong> 대외비 자료(매출/전략)를 외부 유출 없이 내부망 학습 후 역량 평가</li>
-                        <li> <strong>선순환 온보딩:</strong> 퇴직자의 암묵지를 즉시 신입 교육 봇에 이식</li>
+                        <li>• <strong>보안 승진 면접:</strong> 대외비 자료(매출/전략)를 외부 유출 없이 내부망 학습 후 역량 평가</li>
+                        <li>• <strong>선순환 온보딩:</strong> 퇴직자의 암묵지를 즉시 신입 교육 봇에 이식</li>
                     </ul>
                 </div>
                 <div class="card">
@@ -389,20 +396,20 @@
                     <h3>AI 면접 & 커리어 코칭</h3>
                     <p style="color: var(--text-sub); margin-bottom: 20px;">취업 준비생 대상 서비스</p>
                     <ul style="color: var(--text-main);">
-                        <li> <strong>오픈소스 RAG:</strong> 검증된 현직자 인터뷰 데이터 학습</li>
-                        <li> <strong>압박 면접 시뮬레이션:</strong> 기업용 엔진을 B2C에 적용해 실전 감각 배양</li>
+                        <li>• <strong>오픈소스 RAG:</strong> 검증된 현직자 인터뷰 데이터 학습</li>
+                        <li>• <strong>압박 면접 시뮬레이션:</strong> 기업용 엔진을 B2C에 적용해 실전 감각 배양</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. TECH ARCHITECTURE -->
+    <!-- 6. TECH ARCHITECTURE (REALISTIC) -->
     <section id="tech" style="background: #0f172a;">
         <div class="container text-center">
             <span class="section-tag" style="border-color: var(--accent-purple); color: var(--accent-purple);">Tech Stack</span>
-            <h2>Secure 3-Tier Architecture</h2>
-            <p class="desc">프로토타입이 아닌, 상용화 가능한 React + Python + Azure 구조입니다.</p>
+            <h2>Cloud-First Implementation</h2>
+            <p class="desc">이번 프로젝트는 <strong>Azure Cloud 환경</strong>에서 완벽하게 동작하는 MVP 구현에 집중합니다.</p>
 
             <div class="arch-diagram">
                 <!-- Client -->
@@ -421,26 +428,42 @@
                 <!-- Server -->
                 <div class="arch-col">
                     <i class="fa-brands fa-python" style="font-size: 50px; color: var(--accent-purple); margin-bottom: 15px;"></i>
-                    <h4 style="color: var(--text-main); margin-bottom: 10px;">Backend (API)</h4>
+                    <h4 style="color: var(--text-main); margin-bottom: 10px;">Backend (LangChain)</h4>
                     <div>
                         <span class="tech-badge">FastAPI</span>
-                        <span class="tech-badge">LangChain</span>
-                        <span class="tech-badge">Auth / PII Filter</span>
+                        <span class="tech-badge">Auth</span>
+                        <span class="tech-badge">PII Filter</span>
                     </div>
                 </div>
 
                 <div style="font-size: 30px; color: var(--text-sub);">↔</div>
 
-                <!-- Cloud -->
+                <!-- Cloud (Focus) -->
                 <div class="arch-col" style="border-color: var(--accent-green);">
-                    <i class="fa-brands fa-microsoft" style="font-size: 50px; color: var(--accent-green); margin-bottom: 15px;"></i>
-                    <h4 style="color: var(--text-main); margin-bottom: 10px;">Azure Cloud</h4>
-                    <div>
-                        <span class="tech-badge">Private Link</span>
-                        <span class="tech-badge">GPT-4o</span>
-                        <span class="tech-badge">AI Search</span>
+                    <div style="margin-bottom: 10px;">
+                        <i class="fa-solid fa-cloud" style="font-size: 40px; color: var(--accent-green);"></i>
+                    </div>
+                    <h4 style="color: var(--text-main); margin-bottom: 10px;">Azure Cloud Core</h4>
+                    <div style="text-align: left; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 8px;">
+                        <div style="margin-bottom: 5px; font-size: 14px; font-weight: 700;">
+                            <span style="color: var(--accent-blue);">●</span> Azure OpenAI (GPT-4o)
+                        </div>
+                        <div style="margin-bottom: 5px; font-size: 14px; font-weight: 700;">
+                            <span style="color: var(--accent-blue);">●</span> Azure AI Search
+                        </div>
+                        <div style="font-size: 14px; font-weight: 700;">
+                            <span style="color: var(--accent-blue);">●</span> Azure Private Link
+                        </div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- Phase 2 Note -->
+            <div style="margin-top: 30px; padding: 15px; border: 1px dashed var(--accent-orange); border-radius: 8px; display: inline-block; text-align: left;">
+                <p style="font-size: 14px; color: var(--accent-orange); margin: 0;">
+                    <strong><i class="fa-solid fa-info-circle"></i> Roadmap Note:</strong><br>
+                    Phase 2에서는 폐쇄망(On-Premise) 고객을 위해 사내 오픈소스 모델(BYOM) API를 연동할 수 있는 아키텍처로 확장 예정입니다.
+                </p>
             </div>
         </div>
     </section>
@@ -585,19 +608,19 @@
         <div class="container">
             <div class="grid-2">
                 <div>
-                    <h3><i class="fa-solid fa-calendar-check" style="color: var(--accent-blue);"></i> 2 Weeks Execution (Cloud Focus)</h3>
+                    <h3><i class="fa-solid fa-calendar-check" style="color: var(--accent-blue);"></i> 2 Weeks Execution (Cloud SaaS)</h3>
                     <div style="margin-top: 30px; border-left: 2px solid var(--accent-blue); padding-left: 25px;">
                         <h4 style="color: var(--text-main); margin-bottom: 10px;">Week 1: Core & Logic</h4>
                         <ul style="color: var(--text-sub); margin-bottom: 30px; font-size: 16px;">
-                            <li> React ↔ FastAPI ↔ Azure (Cloud) 연동</li>
-                            <li> 반도체 매뉴얼 파싱 & 시나리오 구축</li>
-                            <li> 보안/법률 프로세스 로직 확정</li>
+                            <li>• React ↔ FastAPI ↔ Azure Cloud 연동</li>
+                            <li>• 반도체 매뉴얼 파싱 & 시나리오 구축</li>
+                            <li>• 보안/법률 프로세스 로직 확정</li>
                         </ul>
                         <h4 style="color: var(--text-main); margin-bottom: 10px;">Week 2: UX & Sales</h4>
                         <ul style="color: var(--text-sub); font-size: 16px;">
-                            <li> 기업용 대시보드 CSS 디자인 (Dark Theme)</li>
-                            <li> 결과 리포트 시각화 (레이더 차트)</li>
-                            <li> <strong>MS 영업용 데모 영상 촬영</strong></li>
+                            <li>• 기업용 대시보드 CSS 디자인 (Dark Theme)</li>
+                            <li>• 결과 리포트 시각화 (레이더 차트)</li>
+                            <li>• <strong>MS 영업용 데모 영상 촬영</strong></li>
                         </ul>
                         <p style="font-size: 14px; color: var(--accent-orange); margin-top: 20px;">* Note: On-Premise 연동(BYOM)은 설계 단계이며, 이번 2주 스프린트는 <strong>Cloud SaaS MVP 구현</strong>에 집중합니다.</p>
                     </div>
